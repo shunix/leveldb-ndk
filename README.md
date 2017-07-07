@@ -172,3 +172,9 @@ in util/env_posix.cc
 
 * **include/table.h, include/table_builder.h**: Lower-level modules that most
 clients probably won't use directly
+
+## Build with NDK
+Run the following command under project root directory:  
+```
+ndk-build -B NDK_PROJECT_PATH=./ NDK_APPLICATION_MK=./Application.mk
+```
